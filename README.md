@@ -1,3 +1,36 @@
+### Add Ons for this README
+#### Setup: 
+Run
+```
+make
+```
+in your terminal from the root directory  of your project to compile the `tiny` compiler.
+
+Then run 
+```
+make tm
+```
+to compile the "Tiny Machine"
+
+#### Usage:
+To compile a `.tny` source file run
+```
+./tiny filename.tny
+```
+and it will spit out a `.tm` file.
+
+To run the `.tm` file run
+```
+tm filename.tm
+```
+
+#### Other
+The sample file included from the book provides a good example of usage of a tm program. You have to enter the command `go` before you can actually use the program.
+See Screenshot:
+
+
+
+### Orignal README
 This is the README.md file included in the loucomp.zip file.
 The other files in the distribution are the source code files 
 in standard C for the TINY compiler and Tiny Machine simulator

@@ -30,7 +30,7 @@ cgen.o: cgen.c globals.h symtab.h code.h cgen.h
 
 
 clean: 
-	rm -f tiny main.o util.o scan.o parse.o symtab.o analyze.o code.o cgen.o lex/lex.yy.c yacc/tiny.tab.c  
+	rm -f main.o util.o scan.o parse.o symtab.o analyze.o code.o cgen.o lex/lex.yy.c yacc/tiny.tab.c  
 
 tm: tm.c
-	gcc -g tm.c
+	gcc $(CFLAGS) -o tm tm.c

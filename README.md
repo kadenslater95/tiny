@@ -25,8 +25,10 @@ tm filename.tm
 ```
 
 #### Other
-The sample file included from the book provides a good example of usage of a tm program. You have to enter the command `go` before you can actually use the program.
-See Screenshot:
+The sample file included from the book provides a good example of usage of a tm program. You have to enter the command `go` before you can actually use the program. See Screenshot:
+
+![tm_sample](https://github.com/kadenslater95/tiny/assets/145864590/60f52d82-93cf-4f6c-a5ef-18409a5803a7)
+
 
 
 
